@@ -1,5 +1,6 @@
 package com.ljs.workflow;
 
+import org.flowable.engine.repository.Deployment;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.slf4j.Logger;
@@ -20,6 +21,8 @@ public class WorkflowApplicationTests {
 
     @Test
     public void testFlowable() {
+
+
         logger.info("日志测试 log info");
         logger.error("日志测试 log error");
         logger.debug("日志测试 log debug");
